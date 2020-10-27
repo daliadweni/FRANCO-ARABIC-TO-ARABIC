@@ -3,6 +3,7 @@
                         res = str;
                         res = res.toLowerCase();
                                           res = res.replace(/mohamed/g, "محمد");
+                                          res = res.replace(/shnya oumourek/g, "شنيا أمورك");
 
                         res = res.replace(/7am/g, "حم");
                         res = res.replace(/fama/g, "فما");
