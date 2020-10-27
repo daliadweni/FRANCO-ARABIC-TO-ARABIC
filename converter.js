@@ -2,6 +2,8 @@
                         var res ;
                         res = str;
                         res = res.toLowerCase();
+                                          res = res.replace(/mohamed/g, "محمد");
+
                         res = res.replace(/7am/g, "حم");
                         res = res.replace(/fama/g, "فما");
                         res = res.replace(/bedhabt/g, "بالظبط");
